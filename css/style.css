@@ -1,0 +1,43 @@
+body {
+  background: #000 !important; 
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+  
+  }
+
+.nav-link {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  transition: .3s;
+  color: red;
+}
+
+.nav-header {
+  padding: 10px;
+    text-align: center;
+    background:#000;
+}
+
+.menu-link {
+    color:white;
+  }
+  .menu-link li {
+    display: inline-block
+  }
