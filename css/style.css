@@ -1,6 +1,7 @@
 body {
   background: #000 !important; 
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  /*font-family: 'Texturina', serif;*/
 }
 
 html {
@@ -19,25 +20,49 @@ a:active {
   
   }
 
-.nav-link {
-  color: #ffff;
-  text-decoration: none;
-}
 
-.nav-link:hover {
-  transition: .3s;
-  color: red;
-}
-
-.nav-header {
-  padding: 10px;
-    text-align: center;
+.navbar {
+    color: #fff;
     background:#000;
 }
+.nav-link{
+    margin-top:2.9rem ;
+    color: #fff;
+}
+.nav-link:hover {
+      transition: .3s;
+      color: red;
+}
+.h1_unicorn-witnesses{
+  font-size: 1.7em;
+}
+.names-team{
+  font-size:1.5em;
+  font-family: 'Texturina', serif;
+}
+a.link-teammate{
+  color: #fff;
+  text-decoration: underline;
+}
+a.link-teammate:hover{
+    color: #b0a7cc;
+    transition: .3s;
+}
 
-.menu-link {
-    color:white;
-  }
-  .menu-link li {
-    display: inline-block
-  }
+/*Section Team*/
+.Aleksey-skills{
+  font-size: 1.2em;
+  color: #ff3d00;
+}
+.Dmitriy-skills{
+  font-size: 1.2em;
+  color: #feda00;
+}
+.Olia-skills{
+  font-size: 1.2em;
+  color: #00eb86;
+}
+.Maxim-skills{
+  font-size: 1.2em;
+  color: #7536fc;
+}
