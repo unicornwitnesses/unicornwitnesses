@@ -1,3 +1,13 @@
+@font-face{
+  /* Texturina varible */
+  font-family: 'TexturinaVariable';
+  src: url('../fonts/Texturina-VariableFont_opsz\,wght.ttf');
+}
+@font-face{
+  /* Texturina varible italic */
+  font-family: 'TexturinaItalicVarible';
+  src: url('../fonts/Texturina-Italic-VariableFont_opsz\,wght.ttf');
+}
 body {
   background: #000 !important; 
   font-family: 'Noto Sans', sans-serif;
@@ -38,14 +48,18 @@ a:active {
 }
 .names-team{
   font-size:1.5em;
-  font-family: 'Texturina', serif;
+  font-family: 'TexturinaItalicVarible';
+}
+.Our-team{
+  font-family: 'TexturinaVariable';
+  font-variation-settings: "wght" 900;
 }
 a.link-teammate{
   color: #fff;
   text-decoration: underline;
 }
 a.link-teammate:hover{
-    color: #b0a7cc;
+    color: #bdb8c0;
     transition: .3s;
 }
 
@@ -66,10 +80,13 @@ a.link-teammate:hover{
   font-size: 1.2em;
   color: #7536fc;
 }
+.who-we-are{
+  font-family: 'TexturinaVariable';
+  font-variation-settings: "wght" 800;
+}
 
 .lines-pt2{
   opacity: .2;
-  
   margin-left: 7.58rem;
   margin-top: -0.06rem;
   min-width: 100%;
