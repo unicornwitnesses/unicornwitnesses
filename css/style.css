@@ -29,7 +29,10 @@ a:active {
     outline: none;
   
   }
-
+h2{
+  font-family: 'TexturinaVariable';
+  font-variation-settings: "wght" 800;
+}
 
 .navbar {
     color: #fff;
@@ -47,8 +50,8 @@ a:active {
   font-size: 1.7em;
 }
 .names-team{
-  font-size:1.5em;
   font-family: 'TexturinaItalicVarible';
+  font-size: 1.3em;
 }
 .Our-team{
   font-family: 'TexturinaVariable';
@@ -64,6 +67,7 @@ a.link-teammate:hover{
 }
 
 /*Section Team*/
+
 .Aleksey-skills{
   font-size: 1.2em;
   color: #ff3d00;
@@ -80,15 +84,52 @@ a.link-teammate:hover{
   font-size: 1.2em;
   color: #7536fc;
 }
-.who-we-are{
-  font-family: 'TexturinaVariable';
-  font-variation-settings: "wght" 800;
+.rainbow-part-1{
+  position: relative;
+  z-index: 100;
 }
-
-.lines-pt2{
+.rainbow-part-2{
+  margin-top: -.05rem;
   opacity: .2;
-  margin-left: 7.58rem;
-  margin-top: -0.06rem;
-  min-width: 100%;
-  min-height: 100%;
+  position: relative;
+  z-index: 5;
+  margin-left:6rem ;
 }
+.rainbow-part-3{
+  margin-top: -.09rem;
+  margin-left: 41rem;
+  position: relative;
+  z-index:20 ;
+}  
+
+/*Section Own Product*/
+
+.about-product{
+  position: relative;
+  margin-top: -35rem;
+  z-index: 30;
+}
+.own-product-info{
+  color:#00eb86 ;
+}
+a.link-to-muteit{
+  font-family: 'TexturinaItalicVarible';
+  color: #fff;
+}
+  a.link-to-muteit:hover{
+    transition: .3s;
+    color: #bdb8c0;
+  }
+
+  /*Section We and Our Services*/
+
+  .what-we-are-provide{
+    line-height: .5;
+    color:#feda00;
+  }
+  .our-services{
+    border: solid 2px rgba(0, 235, 134, 0.5);
+  }
+  .knowledge-base{
+    color:#7536fc;
+  }
