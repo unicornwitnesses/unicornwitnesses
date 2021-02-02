@@ -40,6 +40,21 @@ a:active {
   font-size:1.5em;
   font-family: 'Texturina', serif;
 }
+
+/* TODO: Add css image render*/
+/*
+.aleksey-dolgikh{
+  width: 178px;
+  height: 237px;
+  border-radius: 450px;
+  background: url(../images/avatar_of_Aleksey_Dolgikh_designed_by_Olya_Nayda.jpeg);
+}
+*/
+
+.rounded-circle {
+  border-radius: 450px !important;
+}
+
 a.link-teammate{
   color: #fff;
   text-decoration: underline;
@@ -69,9 +84,72 @@ a.link-teammate:hover{
 
 .lines-pt2{
   opacity: .2;
-  
   margin-left: 7.58rem;
   margin-top: -0.06rem;
   min-width: 100%;
   min-height: 100%;
+}
+
+.lines-pt3{
+  margin-right: 0rem;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+}
+.logo-frame {
+  margin-right: 20px;
+  padding: 0 0 18px;
+  display: flex;
+  align-items: flex-start;
+}
+.buffer {
+  width: 85px;
+  height: 120px;
+  margin-right: 20px;
+}
+.contacts-frames-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+}
+.text {
+  width: 100%;
+  margin-bottom: 24px;
+  font-family: var(--body-1-family);
+  font-size: var(--body-1-size);
+  font-weight: var(--body-1-weight);
+  line-height: var(--body-1-line-height);
+  color: var(--white);
+}
+.text-emphasis-2 {
+  font-family: var(--body-1-family);
+  font-size: var(--body-1-size);
+  font-weight: var(--body-1-weight);
+  line-height: var(--body-1-line-height);
+  color: var(--green);
+}
+.telegram {
+  font-family: var(--body-2-family);
+  font-size: var(--body-2-size);
+  font-weight: var(--body-2-weight);
+  line-height: var(--body-2-line-height);
+  color: var(--white);
+}
+.facebook {
+  font-family: var(--body-2-family);
+  font-size: var(--body-2-size);
+  font-weight: var(--body-2-weight);
+  line-height: var(--body-2-line-height);
+  color: var(--white);
+}
+.instagram {
+  font-family: var(--body-2-family);
+  font-size: var(--body-2-size);
+  font-weight: var(--body-2-weight);
+  line-height: var(--body-2-line-height);
+  color: var(--white);
 }
