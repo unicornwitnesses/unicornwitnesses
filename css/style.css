@@ -1,3 +1,13 @@
+@font-face{
+  /* Texturina varible */
+  font-family: 'TexturinaVariable';
+  src: url('../fonts/Texturina-VariableFont_opsz\,wght.ttf');
+}
+@font-face{
+  /* Texturina varible italic */
+  font-family: 'TexturinaItalicVarible';
+  src: url('../fonts/Texturina-Italic-VariableFont_opsz\,wght.ttf');
+}
 body {
   background: #000 !important; 
   font-family: 'Noto Sans', sans-serif;
@@ -19,7 +29,10 @@ a:active {
     outline: none;
   
   }
-
+h2{
+  font-family: 'TexturinaVariable';
+  font-variation-settings: "wght" 800;
+}
 
 .navbar {
     color: #fff;
@@ -37,8 +50,12 @@ a:active {
   font-size: 1.7em;
 }
 .names-team{
-  font-size:1.5em;
-  font-family: 'Texturina', serif;
+  font-family: 'TexturinaItalicVarible';
+  font-size: 1.3em;
+}
+.Our-team{
+  font-family: 'TexturinaVariable';
+  font-variation-settings: "wght" 900;
 }
 
 /* TODO: Add css image render*/
@@ -60,11 +77,12 @@ a.link-teammate{
   text-decoration: underline;
 }
 a.link-teammate:hover{
-    color: #b0a7cc;
+    color: #bdb8c0;
     transition: .3s;
 }
 
 /*Section Team*/
+
 .Aleksey-skills{
   font-size: 1.2em;
   color: #ff3d00;
@@ -81,13 +99,20 @@ a.link-teammate:hover{
   font-size: 1.2em;
   color: #7536fc;
 }
-
-.lines-pt2{
+.rainbow-part-1{
+  position: relative;
+  z-index: 100;
+}
+.rainbow-part-2{
+  margin-top: -.05rem;
   opacity: .2;
   margin-left: 7.58rem;
   margin-top: -0.06rem;
   min-width: 100%;
   min-height: 100%;
+  position: relative;
+  z-index: 5;
+  margin-left:6rem ;
 }
 
 .lines-pt3{
@@ -153,3 +178,42 @@ a.link-teammate:hover{
   line-height: var(--body-2-line-height);
   color: var(--white);
 }
+
+.rainbow-part-3{
+  margin-top: -.09rem;
+  margin-left: 41rem;
+  position: relative;
+  z-index:20 ;
+}  
+
+/*Section Own Product*/
+
+.about-product{
+  position: relative;
+  margin-top: -35rem;
+  z-index: 30;
+}
+.own-product-info{
+  color:#00eb86 ;
+}
+a.link-to-muteit{
+  font-family: 'TexturinaItalicVarible';
+  color: #fff;
+}
+  a.link-to-muteit:hover{
+    transition: .3s;
+    color: #bdb8c0;
+  }
+
+  /*Section We and Our Services*/
+
+  .what-we-are-provide{
+    line-height: .5;
+    color:#feda00;
+  }
+  .our-services{
+    border: solid 2px rgba(0, 235, 134, 0.5);
+  }
+  .knowledge-base{
+    color:#7536fc;
+  }
