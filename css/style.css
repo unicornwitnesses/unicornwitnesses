@@ -59,14 +59,13 @@ h2{
 }
 
 /* TODO: Add css image render*/
-/*
-.aleksey-dolgikh{
-  width: 178px;
-  height: 237px;
+
+/*.aleksey-dolgikh{
+  width: 170px;
+  height: 230px;
   border-radius: 450px;
-  background: url(../images/avatar_of_Aleksey_Dolgikh_designed_by_Olya_Nayda.jpeg);
-}
-*/
+}*/
+
 
 .rounded-circle {
   border-radius: 450px !important;
@@ -87,9 +86,9 @@ a.link-teammate:hover{
   font-size: 1.2em;
   color: #ff3d00;
 }
-.Dmitriy-skills{
+.Alexander-skills{
   font-size: 1.2em;
-  color: #feda00;
+  color: #82b4ff;
 }
 .Olia-skills{
   font-size: 1.2em;
