@@ -34,6 +34,33 @@ h2{
   font-variation-settings: "wght" 800;
 }
 
+.sec-team {
+  max-width: 1140px;
+  margin: 0 auto 50px auto;
+}
+
+.teammates-pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teammates-title {
+  margin-bottom: 20px;
+}
+
+.teammate {
+  flex-basis: 14%;
+}
+
+.product-muteit {
+  display: flex;
+  align-items: center;
+}
+
+.we-are {
+  margin: 70px 0 70px 0;
+}
+
 .navbar {
     color: #fff;
     background:#000;
@@ -180,7 +207,7 @@ a.link-teammate:hover{
 .own-product-info{
   color:#00eb86 ;
 }
-a.link-to-muteit{
+a.link-to-muteit {
   font-family: 'TexturinaItalicVarible';
   color: #fff;
 }
@@ -201,3 +228,49 @@ a.link-to-muteit{
   .knowledge-base{
     color:#7536fc;
   }
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 38px !important;
+  }
+
+  .sec-team {
+    padding: 0 10px;
+  }
+
+  .teammate {
+    flex-basis: unset;
+  }
+
+  .teammates-pictures {
+
+  }
+
+  .we-are {
+    margin: 0 0 40px 0;
+  }
+
+  .product-muteit {
+    margin: 0 !important;
+  }
+
+  .muteit-text {
+    margin: 0 !important;
+  }
+
+  .muteit-picture {
+    margin: 0 !important;
+  }
+
+  #navbarNav {
+    overflow: hidden;
+    height: 0;
+    transition: height 4s ease-in-out;
+  }
+
+  #navbarNav[aria-expanded=true] {
+    height: auto;
+    transition: height 4s ease-in-out;
+  }
+}
