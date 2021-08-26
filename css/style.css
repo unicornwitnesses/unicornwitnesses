@@ -265,11 +265,13 @@ a.link-to-muteit {
 
   #navbarNav {
     height: 0;
+    overflow: hidden;
     transition: height 4s ease-in-out;
   }
 
   #navbarNav[aria-expanded=true] {
     height: auto;
+    overflow: visible;
     transition: height 4s ease-in-out;
   }
 }
