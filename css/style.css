@@ -264,7 +264,6 @@ a.link-to-muteit {
   }
 
   #navbarNav {
-    overflow: hidden;
     height: 0;
     transition: height 4s ease-in-out;
   }
