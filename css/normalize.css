@@ -1,0 +1,52 @@
+@font-face {
+	/* Texturina varible */
+	font-family: 'TexturinaVariable';
+	src: url('../fonts/Texturina-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+	/* Texturina varible italic */
+	font-family: 'TexturinaItalicVarible';
+	src: url('../fonts/Texturina-Italic-VariableFont_opsz\,wght.ttf');
+}
+
+body {
+	background: #000 !important;
+	font-family: 'Noto Sans', sans-serif;
+	color: #ffffff;
+	/*font-family: 'Texturina', serif;*/
+}
+
+html {
+	position: relative;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none !important;
+	transition: 0.2s;
+	color: inherit;
+}
+
+a:hover, a:focus, a:active {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #ffffffa5;
+}
+
+h2 {
+	font-family: 'TexturinaVariable';
+	font-variation-settings: "wght" 800;
+}
+
+p {
+	margin: 0;
+}
