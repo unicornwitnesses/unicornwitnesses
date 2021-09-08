@@ -278,6 +278,7 @@
 
 	.service-list {
 		grid-template-columns: 1fr;
+		text-align: center;
 	}
 }
 /* services section start */
