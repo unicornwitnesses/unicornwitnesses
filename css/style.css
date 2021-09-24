@@ -235,6 +235,29 @@
 }
 /* muteit section end */
 
+/* unicorn witnesses section start */
+.sec-unicorn-witnesses {
+	display: grid;
+	grid-template-columns: max-content 350px;
+	align-items: center;
+	justify-content: center;
+	column-gap: 50px;
+	margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+	.sec-unicorn-witnesses {
+		grid-template-columns: 1fr;
+		row-gap: 50px;
+		margin-bottom: 40px;
+	}
+}
+
+.unicorn-witnesses-description {
+	color: #B8B7FF;
+}
+/* unicorn witnesses section end */
+
 
 /* services section start */
 .sec-services {
