@@ -219,7 +219,7 @@
 	align-items: center;
 	justify-content: center;
 	column-gap: 50px;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
@@ -233,16 +233,51 @@
 .muteit-description {
 	color: #00eb86;
 }
+
 /* muteit section end */
 
 /* unicorn witnesses section start */
 .sec-unicorn-witnesses {
 	display: grid;
-	grid-template-columns: max-content 350px;
+	grid-template-columns: min-content 350px;
 	align-items: center;
 	justify-content: center;
 	column-gap: 50px;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
+}
+
+.unicorn-witnesses-title {
+	margin-bottom: 15px;
+}
+
+.unicorn-witnesses-description {
+	color: #B8B7FF;
+	margin-bottom: 10px;
+}
+
+.unicorn-witnesses-img-link {
+	width: 400px;
+}
+
+.unicorn-witnesses-img {
+	width: 100%;
+}
+
+.unicorn-witnesses-text__list {
+	list-style-type: disc;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+.unicorn-witnesses-text__discord-link {
+	font-size: 16px;
+	line-height: 1;
+}
+
+@media (max-width: 1200px) {
+	.unicorn-witnesses-img-link {
+		width: 300px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -251,10 +286,11 @@
 		row-gap: 50px;
 		margin-bottom: 40px;
 	}
-}
 
-.unicorn-witnesses-description {
-	color: #B8B7FF;
+	.unicorn-witnesses-img-link {
+		grid-row: 2;
+		width: 100%;
+	}
 }
 /* unicorn witnesses section end */
 
