@@ -15,8 +15,6 @@ const init = () => {
 		select = document.querySelector('.change-lang');
 		options = Array.from(select.querySelectorAll('option'));
 		select.addEventListener('change', onSelectChange);
-		audio.pause();
-		initSounds();
 	}
 
 	const changeSelectedOption = () => {

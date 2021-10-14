@@ -12,7 +12,7 @@ const getTemplate = (data, language) => {
 			<div class="row">
 			<div class="col-md-1">
 							<select class="change-lang mt-2"
-								style="color: #fff; background: #000; border: solid #fff 2px ; border-radius: 10px;">
+								style="color: #fff; background: #000; border: solid #fff 2px ; border-radius: 10px; text-align: right;">
 								${options.join()}
 							</select>
 						</div>
@@ -43,11 +43,11 @@ const getTemplate = (data, language) => {
 		</main>
 
 		<footer class="footer row">
-			<div class="col-sm-3">
-				<a class="bi bi-box-arrow-right" href="https://unicornwitnesses.com" target="_blank">${t('text-made-by-text')}</a>
+			<div class="footer-presentaion">
+				<a class="footer-presentaion" href="https://unicornwitnesses.com" target="_blank">unicornwitnesses.com</a>
 			</div>
 			<div class="col-sm-3">
-				<div class="d-flex flex-column">
+				<div class="footer-presentaion">
 					<a class="bi bi-box-arrow-right text-light p-2" href="http://olianayda.com"
 						target="_blank">olianayda.com</a>
 					<a class="bi bi-box-arrow-right text-light p-2" href="http://alexdolbun.com"
@@ -65,7 +65,7 @@ const getTemplate = (data, language) => {
 				</div>
 			</div>
 			<div class="col-sm-3">
-				<a class="bi bi-telegram" href="https://t.me/muteitapp" target="_blank">${t('text-how-create-project-telegram')}</a>
+				<a class="bi bi-telegram" href="https://t.me/muteitapp" target="_blank">t.me/muteitapp</a>
 			</div>
 		</footer>
 	</div>
