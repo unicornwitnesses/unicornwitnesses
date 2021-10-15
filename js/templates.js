@@ -9,19 +9,15 @@ const getTemplate = (data, language) => {
 	const html = `
 	<div class="container">
 		<header class="header">
-			<div class="row">
-			<div class="col-md-1">
-							<select class="change-lang mt-2"
-								style="color: #fff; background: #000; border: solid #fff 2px ; border-radius: 10px; text-align: right;">
-								${options.join()}
-							</select>
-						</div>
-				
+			<div class="change-land-wrapper">
+				<select class="change-lang"
+					style="color: #fff; background: #000; border: solid #fff 2px ; border-radius: 10px; text-align: right;">
+					${options.join()}
+				</select>
 			</div>
-
-			<div class="container header-content">
-				<div class="row">
-					<div class="col-md-12">
+			<div>
+				<div>
+					<div>
 						<h1><a style="color:#fff;">${t('presentation-ecosystem-h1')}</a></h1>
 					</div>
 				</div>
@@ -30,19 +26,16 @@ const getTemplate = (data, language) => {
 
 		<main class="main">
 			<section>
-				<h2 style="color:#fff;">${t('h2')}</h2>
+				<h2 class="subtitle">${t('h2')}</h2>
 				<div class="container">
-                <iframe src="${t('presentation-url-content')}" 
-                    width="100%" height="1200" allowfullscreen>
-                </iframe>
-            </div>
-    </div>
-			</section>
-
-			
+					<object style="width: 100%; height: 100%;" data="${t('presentation-url-content')}#toolbar=0" type="application/pdf">
+						<embed src="${t('presentation-url-content')}#toolbar=0" type="application/pdf" />
+					</object>
+        </div>
+		</section>
 		</main>
 
-		<footer class="footer row">
+		<footer class="footer">
 			<div class="footer-presentaion">
 				<a class="footer-presentaion" href="https://unicornwitnesses.com" target="_blank">unicornwitnesses.com</a>
 			</div>
@@ -69,8 +62,6 @@ const getTemplate = (data, language) => {
 			</div>
 		</footer>
 	</div>
-
-	
 	`;
 
 	return html;
