@@ -1,0 +1,30 @@
+.change-land-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  aspect-ratio: 2 / 1;
+  width: 100%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-column-gap: 110px;
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 50px;
+}
+
+a {
+  color: white;
+}
+
+.subtitle {
+  color: #a3a3a3;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}

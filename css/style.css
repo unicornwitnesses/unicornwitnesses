@@ -405,3 +405,11 @@
 	align-items: flex-start;
 }
 /* footer end */
+
+.footer-presentaion {
+	display: grid;
+	grid-template-columns: none;
+	align-items: center;
+	row-gap: 20px;
+	margin-bottom: 30px;
+}
