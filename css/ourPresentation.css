@@ -11,10 +11,23 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, min-content);
-  grid-column-gap: 110px;
+  column-gap: 110px;
+  row-gap: 50px;
   margin: 0 auto;
   width: fit-content;
   margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: unset;
+  }
+
+  .footer-presentaion {
+    display: grid;
+    row-gap: 5px;
+  }
 }
 
 a {
@@ -27,4 +40,9 @@ a {
   font-family: sans-serif;
   font-weight: 400;
   margin: 0 0 10px 0;
+}
+
+.iframe {
+  width: 100%;
+  height: 100vh;
 }

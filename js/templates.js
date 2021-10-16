@@ -6,6 +6,8 @@ const getTemplate = (data, language) => {
 		`<option value="ru" ${language === 'ru' ? 'selected' : ''}>RU</option>`
 	];
 
+	const presentationId = language === 'ru' ? '1wktjctRVcsnmm_m8x4oQY8Nzb5t-Mooa' : '1p93IX-siCCJ-YMESxk1Vgn1bI_N0Netj';
+
 	const html = `
 	<div class="container">
 		<header class="header">
@@ -28,9 +30,9 @@ const getTemplate = (data, language) => {
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
 				<div class="container">
-					<object style="width: 100%; height: 100%;" data="${t('presentation-url-content')}#toolbar=0" type="application/pdf">
-						<embed src="${t('presentation-url-content')}#toolbar=0" type="application/pdf" />
-					</object>
+					<iframe class="iframe" src="https://drive.google.com/file/d/${presentationId}/preview" allowfullscreen>
+						<p>It appears your web browser doesn't support iframes.</p>
+					</iframe>
         </div>
 		</section>
 		</main>
