@@ -6,12 +6,12 @@ const getTemplate = (data, language) => {
 		`<option value="ru" ${language === 'ru' ? 'selected' : ''}>RU</option>`
 	];
 
-	const presentationId = language === 'ru' ? '1wktjctRVcsnmm_m8x4oQY8Nzb5t-Mooa' : '1p93IX-siCCJ-YMESxk1Vgn1bI_N0Netj';
+	const presentationId = language === 'ru' ? '1g74nC_6B9mcQMwrJWcj_cny88qlwTfek' : '1RUZCm0E4l2we9HrmppifVbIUxBjndf6Y';
 
 	const html = `
 	<div class="container">
 		<header class="header">
-			<div class="change-land-wrapper">
+			<div class="change-land-wrapper style="text-align:right;float:right;"">
 				<select class="change-lang"
 					style="color: #fff; background: #000; border: solid #fff 2px ; border-radius: 10px; text-align: right;">
 					${options.join()}
@@ -20,7 +20,7 @@ const getTemplate = (data, language) => {
 			<div>
 				<div>
 					<div>
-						<h1><a style="color:#fff;">${t('presentation-ecosystem-h1')}</a></h1>
+						<h1 style="margin:-1px;"><a style="color:#fff;">${t('presentation-ecosystem-h1')}</a></h1>
 					</div>
 				</div>
 			</div>
@@ -45,6 +45,10 @@ const getTemplate = (data, language) => {
 				<div class="footer-presentaion">
 					<a class="bi bi-box-arrow-right text-light p-2" href="http://olianayda.com"
 						target="_blank">olianayda.com</a>
+					<a class="bi bi-box-arrow-right text-light p-2" href="https://usmrv.com"
+						target="_blank">usmrv.com</a>
+					<a class="bi bi-box-arrow-right text-light p-2" href="https://evgenykhristenko.com"
+						target="_blank">evgenykhristenko.com</a>
 					<a class="bi bi-box-arrow-right text-light p-2" href="http://alexdolbun.com"
 						target="_blank">alexdolbun.com</a>
 					<a class="bi bi-box-arrow-right text-light p-2" href="https://alexandrverevkin.com/"
@@ -53,10 +57,9 @@ const getTemplate = (data, language) => {
 						target="_blank">maximlitvinov.me</a>
 					<a class="bi bi-box-arrow-right text-light p-2" href="https://juliaudovichenko.com"
 						target="_blank">juliaudovichenko.com</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="https://evgenykhristenko.com"
-						target="_blank">evgenykhristenko.com</a>
 					<a class="bi bi-box-arrow-right text-light p-2" href="https://nikitakhristenko.com"
 						target="_blank">nikitakhristenko.com</a>
+					
 				</div>
 			</div>
 			<div class="col-sm-3">

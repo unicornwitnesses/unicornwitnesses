@@ -6,8 +6,8 @@ const getTranslations = async () => {
 
 const translations = {
 	"presentation-ecosystem-h1": {
-		"ru": "Презентация экосистемы Unicorn Witnesses",
-		"en": "Presentation of Unicorn Witnesses supported ecosystem",
+		"ru": "Партнер, давайте перевернем экосистемы ESG индустрии климата и семейного здравоохранения",
+		"en": "Partner, let's disrupt ESG & family env- healthcare industry ecosystems",
 	},
 	"presentation-url-content": {
 		"ru": "./assets/Unicorn-witnesses-pitch_ru.pdf",
