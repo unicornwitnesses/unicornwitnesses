@@ -53,47 +53,54 @@ Tagline: Innovative. Glocal. Collaborative. Together. Accessibly.
 <table align="center" cellspacing="0" cellpadding="0" border="0">
    <tr>
     <td>
-		<a href="https://olianayda.com" target="_blank">CDO Olga Nayda olianayda.com</a>
+		<a href="https://olianayda.com?utm_content=
+unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Olga Nayda CDO -> olianayda.com</a>
 			</td>
    </tr>
 		<tr>
     <td>
-		<a href="https://alexdolbun.com" target="_blank">CVO Alkesei Dolgikh alexdolbun.com</a>
+		<a href="https://alexdolbun.com?utm_content=
+unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Alkesei Dolgikh CVO -> alexdolbun.com</a>
 			</td>
    </tr>
 	<tr>
     <td>
-		<a href="https://evgenykhristenko.com" target="_blank">CTO Evgeny Khristenko evgenykhristenko.com</a>
+		<a href="https://evgenykhristenko.com?utm_content=
+unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Evgeny Khristenko CTO -> evgenykhristenko.com</a>
 			</td>
    </tr>
 	<tr>
     <td>
-		<a href="https://usmrv.com" target="_blank">Senior Digital product developer Ivan Ushmorov usmrv.com</a>
+		<a href="https://usmrv.com?utm_content=
+unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Ivan Ushmorov Senior Digital product developer -> usmrv.com</a>
 			</td>
    </tr>
 	<tr>
     <td>
-		<a href="https://nikitakhristenko.com" target="_blank">Product designer, CBT psychologist, coach, community manager, ux copywriter Nikita Khristenko nikitakhristenko.com</a>
+		<a href="https://nikitakhristenko.com?utm_content=
+unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Nikita Khristenko Product designer, CBT psychologist, coach, community manager, ux copywriter -> nikitakhristenko.com</a>
     </td>
    </tr>
 			<tr>
     <td>
-		<a href="https://alexandrverevkin.com/" target="_blank">Digital product developer Alexandr Verevkin alexandrverevkin.com</a>
+		<a href="https://alexandrverevkin.com?utm_content=
+unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Alexandr Verevkin Digital product developer -> alexandrverevkin.com</a>
 			</td>
    </tr>
 			<tr>
     <td>
-		<a href="https://maximlitvinov.me" target="_blank">Digital product developer Maxim Litvinov maximlitvinov.me</a>
+		<a href="https://maximlitvinov.me?utm_content=
+unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Maxim Litvinov Digital product developer -> maximlitvinov.me</a>
 			</td>
    </tr>
 	<tr>
     <td>
-		<a href="https://www.behance.net/99up" target="_blank">Digital product designer Andrei Anufrienko behance.net/99up</a>
+		<a href="https://www.behance.net/99up" target="_blank">Andrei Anufrienko Digital product designer -> behance.net/99up</a>
 			</td>
    </tr>
 	<tr>
     <td>
-		<a href="https://www.behance.net/alyoniko" target="_blank">Digital product designer & UX architect ◈ UI designer ◈ Illustrator Alena Korsunova behance.net/99up</a>
+		<a href="https://www.behance.net/alyoniko" target="_blank">Alena Korsunova Digital product designer & UX architect ◈ UI designer ◈ Illustrator -> behance.net/99up</a>
 			</td>
    </tr>
 </table>
