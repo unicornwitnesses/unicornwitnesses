@@ -6,7 +6,7 @@ const getTemplate = (data, language) => {
 		`<option value="ru" ${language === 'ru' ? 'selected' : ''}>RU</option>`
 	];
 
-	const presentationId = language === 'ru' ? '1g74nC_6B9mcQMwrJWcj_cny88qlwTfek' : '1RUZCm0E4l2we9HrmppifVbIUxBjndf6Y';
+	const presentationPath = language === 'ru' ? '../assets/uw_presentation_ru.pdf' : '../assets/uw_presentation_en.pdf';
 
 	const html = `
 	<div class="container">
@@ -30,7 +30,7 @@ const getTemplate = (data, language) => {
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
 				<div class="container">
-					<iframe class="iframe" src="https://drive.google.com/file/d/${presentationId}/preview" allowfullscreen>
+					<iframe class="iframe" src="${presentationPath}#toolbar=0&navpanes=0" allowfullscreen>
 						<p>It appears your web browser doesn't support iframes.</p>
 					</iframe>
         </div>
@@ -59,7 +59,7 @@ const getTemplate = (data, language) => {
 						target="_blank">juliaudovichenko.com</a>
 					<a class="bi bi-box-arrow-right text-light p-2" href="https://nikitakhristenko.com"
 						target="_blank">nikitakhristenko.com</a>
-					
+
 				</div>
 			</div>
 			<div class="col-sm-3">
