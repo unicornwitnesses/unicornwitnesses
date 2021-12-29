@@ -11,9 +11,9 @@ const getTemplate = (data, language) => {
 	const html = `
 	<div class="container">
 		<header class="header">
-			<div class="change-land-wrapper style="text-align:right;float:right;"">
+			<div class="change-land-wrapper" style="text-align:right;float:right;">
 				<select class="change-lang"
-					style="color: #fff; background: #000; border: solid #fff 2px ; border-radius: 10px; text-align: right;">
+					style="font-size: 24px; color: #fff; background: #000; border: solid #fff 4px ; border-radius: 10px; text-align: right;">
 					${options.join()}
 				</select>
 			</div>
