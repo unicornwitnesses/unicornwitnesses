@@ -6,7 +6,7 @@ const getTemplate = (data, language) => {
 		`<option value="ru" ${language === 'ru' ? 'selected' : ''}>RU</option>`
 	];
 
-	const presentationPath = language === 'ru' ? '../assets/uw_presentation_ru.pdf' : '../assets/uw_presentation_en.pdf';
+	const presentationGoogleID = language === 'ru' ? '1hYAt7WJp3uKqURfzmZ4Ge6rQVQbtX0IJiEn-mml2oQ8' : '1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM';
 
 	const html = `
 	<div class="container">
@@ -30,9 +30,12 @@ const getTemplate = (data, language) => {
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
 				<div class="container">
-					<iframe class="iframe" src="${presentationPath}#toolbar=0&navpanes=0" allowfullscreen>
-						<p>It appears your web browser doesn't support iframes.</p>
-					</iframe>
+                    <iframe src="https://docs.google.com/presentation/d/1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM/embed?rm=minimal" 
+                            frameborder="0" 
+                            width="100%" 
+                            height="100%">
+                    <p>It appears your web browser doesn't support iframes.</p>
+                    </iframe>
         </div>
 		</section>
 		</main>
