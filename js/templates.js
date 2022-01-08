@@ -30,9 +30,9 @@ const getTemplate = (data, language) => {
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
 				<div class="container">
-                    <iframe src="https://docs.google.com/presentation/d/1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM/embed?rm=minimal" 
-                            frameborder="0" 
-                            width="100%" 
+                    <iframe src="https://docs.google.com/presentation/d/${presentationGoogleID}/embed?rm=minimal"
+                            frameborder="0"
+                            width="100%"
                             height="100%">
                     <p>It appears your web browser doesn't support iframes.</p>
                     </iframe>
