@@ -13,12 +13,12 @@ const getTemplate = (data, language) => {
         return check;
     };
     
+    // This is the variable that flies away if we have a something
+    var presentationGoogleID = language === 'ru' ? '1hYAt7WJp3uKqURfzmZ4Ge6rQVQbtX0IJiEn-mml2oQ8' : '1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM';
+	
     if (window.mobileCheck()) {
         // This is the variable that flies away if we have a mobile
-        const presentationGoogleID = language === 'ru' ? '1GmAlxxmz4ATW7HLRUrFCXXzQIIhiGy5wqL3APUCWDcA' : '1fxFBcuchbN8JKYm_nYdUt2N5NjdLa8BTdl3DqeUQFVQ';
-    }else{
-        // This is the variable that flies away if we have a something
-        const presentationGoogleID = language === 'ru' ? '1hYAt7WJp3uKqURfzmZ4Ge6rQVQbtX0IJiEn-mml2oQ8' : '1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM';
+        presentationGoogleID = language === 'ru' ? '1GmAlxxmz4ATW7HLRUrFCXXzQIIhiGy5wqL3APUCWDcA' : '1fxFBcuchbN8JKYm_nYdUt2N5NjdLa8BTdl3DqeUQFVQ';
     }
 
 	const html = `
