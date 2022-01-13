@@ -42,7 +42,7 @@ const getTemplate = (data, language) => {
 		<main class="main">
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
-				<div class="container">
+				<div class="container" style="height: calc(100vw);">
                     <iframe src="https://docs.google.com/presentation/d/${presentationGoogleID}/embed?rm=minimal"
                             frameborder="0"
                             width="100%"
