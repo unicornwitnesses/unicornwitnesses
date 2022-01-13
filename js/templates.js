@@ -15,7 +15,7 @@ const getTemplate = (data, language) => {
     // This is the variable that flies away if we have a desktop
 	const presentationGoogleID = language === 'ru' ? '1hYAt7WJp3uKqURfzmZ4Ge6rQVQbtX0IJiEn-mml2oQ8' : '1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM';
     // This is the variable that flies away if we have a mobile
-    if (window.mobileCheck) {presentationGoogleID = language === 'ru' ? '1GmAlxxmz4ATW7HLRUrFCXXzQIIhiGy5wqL3APUCWDcA' : '1fxFBcuchbN8JKYm_nYdUt2N5NjdLa8BTdl3DqeUQFVQ';}
+    if (window.mobileCheck()) {presentationGoogleID = language === 'ru' ? '1GmAlxxmz4ATW7HLRUrFCXXzQIIhiGy5wqL3APUCWDcA' : '1fxFBcuchbN8JKYm_nYdUt2N5NjdLa8BTdl3DqeUQFVQ';}
 
 	const html = `
 	<div class="container">
