@@ -15,10 +15,12 @@ const getTemplate = (data, language) => {
     
     // This is the variable that flies away if we have a something
     var presentationGoogleID = language === 'ru' ? '1hYAt7WJp3uKqURfzmZ4Ge6rQVQbtX0IJiEn-mml2oQ8' : '1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM';
-	
+	var presentationHeight = '100%';
+    
     if (window.mobileCheck()) {
         // This is the variable that flies away if we have a mobile
         presentationGoogleID = language === 'ru' ? '1GmAlxxmz4ATW7HLRUrFCXXzQIIhiGy5wqL3APUCWDcA' : '1fxFBcuchbN8JKYm_nYdUt2N5NjdLa8BTdl3DqeUQFVQ';
+        presentationHeight = 'calc(140vw)';
     }
 
 	const html = `
@@ -42,7 +44,7 @@ const getTemplate = (data, language) => {
 		<main class="main">
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
-				<div class="container" style="height: calc(100vw);">
+				<div class="container" style="height: ${presentationHeight};">
                     <iframe src="https://docs.google.com/presentation/d/${presentationGoogleID}/embed?rm=minimal"
                             frameborder="0"
                             width="100%"
@@ -55,27 +57,32 @@ const getTemplate = (data, language) => {
 
 		<footer class="footer">
 			<div class="footer-presentaion">
-				<a class="footer-presentaion" href="https://unicornwitnesses.com" target="_blank">unicornwitnesses.com</a>
+				<h2>With the support of the  <a class="footer-presentaion" href="https://unicornwitnesses.com" target="_blank">unicornwitnesses.com</a> community</h2>
 			</div>
 			<div class="col-sm-3">
 				<div class="footer-presentaion">
-					<a class="bi bi-box-arrow-right text-light p-2" href="http://olianayda.com"
-						target="_blank">olianayda.com</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="https://usmrv.com"
-						target="_blank">usmrv.com</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="https://evgenykhristenko.com"
-						target="_blank">evgenykhristenko.com</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="http://alexdolbun.com"
-						target="_blank">alexdolbun.com</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="https://alexandrverevkin.com/"
-						target="_blank">alexandrverevkin.com</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="https://maximlitvinov.me"
-						target="_blank">maximlitvinov.me</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="https://juliaudovichenko.com"
+					<p>CDO (chief visionary officer) Olia Nayda <a class="bi bi-box-arrow-right text-light p-2" href="http://olianayda.com"
+						target="_blank">olianayda.com</a></p>
+                    <p>Digital product designer Nikita Khristenko CBT psychologist <a class="bi bi-box-arrow-right text-light p-2" href="https://nikitakhristenko.com"
+						target="_blank">nikitakhristenko.com</a></p>
+                    <p>CVO Chief visionary officer Aleksei Dolgih Scout VC <a class="bi bi-box-arrow-right text-light p-2" href="http://alexdolbun.com"
+						target="_blank">alexdolbun.com</a></p>
+                    <p>CTO Chief technology/technical officer Evgeny Khristenko <a class="bi bi-box-arrow-right text-light p-2" href="https://evgenykhristenko.com"
+						target="_blank">evgenykhristenko.com</a></p>
+					<p>Digital product developer Ivan Ushmorov Senior <a class="bi bi-box-arrow-right text-light p-2" href="https://usmrv.com"
+						target="_blank">usmrv.com</a></p>
+                    <p>Digital product developer Ivan Ushmorov <a class="bi bi-box-arrow-right text-light p-2" href="https://usmrv.com"
+						target="_blank">usmrv.com</a></p>
+					<p>Digital product developer Aleksandr Verevkin <a class="bi bi-box-arrow-right text-light p-2" href="https://alexandrverevkin.com/"
+						target="_blank">alexandrverevkin.com</a></p>
+					<p>Digital product developer Maxim Litvinov <a class="bi bi-box-arrow-right text-light p-2" href="https://maximlitvinov.me"
+						target="_blank">maximlitvinov.me</a></p>
+                    <p>
+                    A tribute to those who left us (they stayed in the community but left the core)
+                    </p>
+                    <p>Digital product developer  <a class="bi bi-box-arrow-right text-light p-2" href="https://juliaudovichenko.com"
 						target="_blank">juliaudovichenko.com</a>
-					<a class="bi bi-box-arrow-right text-light p-2" href="https://nikitakhristenko.com"
-						target="_blank">nikitakhristenko.com</a>
-
+                    </p>
 				</div>
 			</div>
 			<div class="col-sm-3">
