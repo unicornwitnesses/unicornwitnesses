@@ -6,6 +6,7 @@
 .container {
   aspect-ratio: 2 / 1;
   width: 100%;
+	color: #e3e3e3;
 }
 
 .footer {
