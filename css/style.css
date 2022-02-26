@@ -439,9 +439,9 @@
 }
 
 .slide-1 .slide-content {
-	background: rgb(214, 4, 92);
+	background: url('../img/jumeirah-gradient.png');
 }
 
 .slide-2 .slide-content {
-	background: rgb(98, 0, 255);
+	background: url('../img/new-york-yellow.png');
 }
