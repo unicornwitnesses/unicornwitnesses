@@ -422,7 +422,7 @@
 .slide-content {
 	max-width: 100%;
 	margin: 0 auto;
-	min-height: 500px;
+	min-height: 600px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -440,8 +440,10 @@
 
 .slide-1 .slide-content {
 	background: url('../img/jumeirah-gradient.png');
+	background-size: cover;
 }
 
 .slide-2 .slide-content {
 	background: url('../img/new-york-yellow.png');
+	background-size: cover;
 }
