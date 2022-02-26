@@ -427,7 +427,7 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px 50px;
+	padding: 20px 20%;
 	border-radius: 5px;
 }
 
@@ -439,11 +439,11 @@
 }
 
 .slide-1 .slide-content {
-	background: url('../img/jumeirah-gradient.png');
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/jumeirah-gradient.png') center center;
 	background-size: cover;
 }
 
 .slide-2 .slide-content {
-	background: url('../img/new-york-yellow.png');
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/new-york-yellow.png') center center;
 	background-size: cover;
 }
