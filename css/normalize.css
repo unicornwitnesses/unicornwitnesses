@@ -1,32 +1,8 @@
 /* В этом файле переопределяются базовые стили и поведение страницы и глобальные тэги */
 
-@font-face {
-	font-family: 'NotoSans';
-	src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'NotoSans';
-	font-style: italic;
-	src: url('/fonts/NotoSans-Italic.ttf');
-}
-
-@font-face {
-	font-family: 'NotoSans';
-	font-weight: 700;
-	src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'NotoSans';
-	font-weight: 700;
-	font-style: italic;
-	src: url('/fonts/NotoSans-BoldItalic.ttf');
-}
-
 body {
-	background: #2a2a2a !important;
-	font-family: 'NotoSans', sans-serif;
+	background: #2a2a2a;
+	font-family: 'Noto Sans', sans-serif;
 	color: #ffffff;
 }
 
@@ -41,7 +17,7 @@ ul {
 }
 
 a {
-	text-decoration: none !important;
+	text-decoration: none;
 	transition: 0.2s;
 	color: inherit;
 }
@@ -55,11 +31,57 @@ a:hover {
 	color: #ffffffa5;
 }
 
-h2 {
-	font-family: 'TexturinaVariable';
-	font-variation-settings: "wght" 800;
-}
-
 p {
 	margin: 0;
 }
+
+h1, h2, h3, h4 {
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 38px;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+
+/* Container */
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+			max-width: 1140px;
+	}
+}
+

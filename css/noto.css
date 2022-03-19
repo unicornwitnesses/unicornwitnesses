@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans'), local('NotoSans'), url('../fonts/notosans.woff2') format('woff2'), url('../fonts/notosans.woff') format('woff'), url('../fonts/notosans.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans Italic'), local('NotoSans-Italic'), url('../fonts/notosansitalic.woff2') format('woff2'), url('../fonts/notosansitalic.woff') format('woff'), url('../fonts/notosansitalic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans Bold'), local('NotoSans-Bold'), url('../fonts/notosansbold.woff2') format('woff2'), url('../fonts/notosansbold.woff') format('woff'), url('../fonts/notosansbold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'), url('../fonts/notosansbolditalic.woff2') format('woff2'), url('../fonts/notosansbolditalic.woff') format('woff'), url('../fonts/notosansbolditalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}

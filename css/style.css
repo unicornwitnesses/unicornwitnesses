@@ -1,29 +1,6 @@
 /* header-start */
 .header {
-	margin-bottom: 80px;
-}
-
-.sec-we__title {
-	max-width: 800px;
-	border-top: 200px;
-	border-width: 200px;
-}
-
-.sec-we__team-title {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-size: 35px;
-}
-
-.sec-we__team-head {
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	font-size: 45px;
-}
-
-.sec-we__team-content {
-	margin-top: 40px;
+	margin-bottom: 100px;
 }
 
 .mobile-menu {
@@ -80,7 +57,16 @@
 }
 
 .socials-list-item {
-	margin: 5px 14px 0 0;
+	margin: 6px 22px 0 0;
+}
+
+.socials-list-item a {
+	align-items: center;
+	display: flex;
+}
+
+.socials-list-item i {
+	margin-right: 7px;
 }
 
 @media (max-width: 1200px) {
@@ -178,7 +164,7 @@
 }
 
 .sec-team-title {
-	font-family: 'NotoSans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: 700;
 	margin-bottom: 40px;
 	font-size: 56px;
@@ -219,7 +205,7 @@
 
 /* we section start */
 .sec-we {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
@@ -228,9 +214,12 @@
 	}
 }
 
-.we-title {
-	font-weight: 700;
-	font-family: 'NotoSans', sans-serif;
+.sec-we__title {
+	max-width: 630px;
+}
+
+.sec-we__list {
+	font-size: 18px;
 }
 /* we section end */
 
@@ -243,6 +232,18 @@
 	justify-content: center;
 	column-gap: 50px;
 	margin-bottom: 100px;
+}
+
+.muteit-text__go-to {
+	display: grid;
+	margin-top: 5px;
+	align-items: baseline;
+	color: #feda00;
+	column-gap: 5px;
+	grid-auto-flow: column;
+	justify-content: flex-start;
+	font-size: 20px;
+	font-weight: 500px;
 }
 
 @media (max-width: 768px) {
@@ -287,9 +288,8 @@
 }
 
 .unicorn-witnesses-text__list {
-	list-style-type: disc;
-	margin-bottom: 5px;
-	padding-left: 10px;
+	/* list-style-type: ; */
+	margin-bottom: 10px;
 }
 
 .unicorn-witnesses-text__discord-link {
@@ -335,6 +335,10 @@
 	padding: 30px 50px;
 	display: grid;
 	row-gap: 10px;
+}
+
+.service h2 {
+	font-size: 28px;
 }
 
 .service-list {
@@ -485,4 +489,75 @@
 	.mobile-menu__button-container {
 		display: flex;
 	}
+}
+
+.sec-dao {
+	margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+	.sec-dao {
+		margin-bottom: 70px;
+	}
+}
+
+.sec-dao ul {
+	padding-left: 5px;
+	display: grid;
+	row-gap: 15px;
+	max-width: 710px;
+}
+
+.sec-dao__reason:last-of-type {
+	margin: 0 0 70px 0;
+	/* text-align: right; */
+}
+
+ul.sec-dao__users-list {
+	max-width: unset;
+}
+
+.sec-dao__title {
+	max-width: 800px;
+	margin: 0 0 10px 0;
+}
+
+.sec-dao__how-works-title {
+	color: #ff0000;
+	margin: 0 0 40px 0;
+}
+
+.sec-dao__teams-title {
+	color: #ff7300;
+	margin: 0 0 10px 0;
+}
+
+.sec-dao__users-title {
+	color: #feda00;
+	margin: 0 0 10px 0;
+}
+
+.sec-dao__tokens-title {
+	color: #00eb86;
+    margin: 0 0 20px 0;
+}
+
+.sec-dao__revenue-title {
+	color: #7536fc;
+	margin: 0 0 10px 0;
+}
+
+.sec-dao__products-title {
+	color: #b336fc;
+	margin: 0;
+}
+
+.sec-dao__reason {
+	margin: 0 0 40px 0;
+}
+
+.sec-presentation p {
+	max-width: 900px;
+	margin-bottom: 10px;
+	font-size: 17px;
 }
