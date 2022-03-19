@@ -3,6 +3,29 @@
 	margin-bottom: 80px;
 }
 
+.sec-we__title {
+	max-width: 800px;
+	border-top: 200px;
+	border-width: 200px;
+}
+
+.sec-we__team-title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 35px;
+}
+
+.sec-we__team-head {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 45px;
+}
+
+.sec-we__team-content {
+	margin-top: 40px;
+}
+
 .mobile-menu {
 	display: none;
 }
@@ -15,21 +38,21 @@
 
 .header-top {
 	display: grid;
-	grid-template-columns: repeat(2, max-content);
+	grid-template-columns: min-content 1fr;
 	align-items: flex-end;
 	column-gap: 20px;
 }
 
 .header-contacts {
-	display: grid;
-	grid-template-columns: max-content 1fr;
 	align-items: flex-end;
 	column-gap: 20px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .header-mail {
 	color: #feda00;
-	max-width: 490px;
+	max-width: 670px;
 }
 
 .header-mail:hover {
@@ -57,13 +80,13 @@
 }
 
 .socials-list-item {
-	margin: 5px 15px 0 0;
+	margin: 5px 14px 0 0;
 }
 
 @media (max-width: 1200px) {
 	.header-contacts {
 		display: grid;
-		grid-template-columns: max-content;
+		grid-template-columns: 1fr;
 	}
 
 	.header-top {
@@ -155,8 +178,8 @@
 }
 
 .sec-team-title {
-	font-family: 'Texturina', serif;
-	font-weight: 800;
+	font-family: 'NotoSans', sans-serif;
+	font-weight: 700;
 	margin-bottom: 40px;
 	font-size: 56px;
 }
@@ -173,7 +196,7 @@
 
 @media (max-width: 768px) {
 	.teammates {
-		grid-template-columns: repeat( auto-fill, minmax(120px, 1fr) );
+		grid-template-columns: repeat( auto-fill, minmax(150px, 1fr) );
 	}
 
 	.sec-team-title {
@@ -206,8 +229,8 @@
 }
 
 .we-title {
-	font-weight: 800;
-	font-family: 'Texturina', serif;
+	font-weight: 700;
+	font-family: 'NotoSans', sans-serif;
 }
 /* we section end */
 
@@ -434,7 +457,7 @@
 
 .slide-content h4 {
 	font-size: 30px;
-	font-weight: 800;
+	font-weight: 700;
 	color: #fff;
 	margin-bottom: 20px;
 	text-align: center;
@@ -448,4 +471,18 @@
 .slide-2 .slide-content {
 	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/new-york-yellow.png') center center;
 	background-size: cover;
+}
+
+.mobile-menu__button-container {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.slick-arrow {
+		display: none !important;
+	}
+
+	.mobile-menu__button-container {
+		display: flex;
+	}
 }

@@ -1,22 +1,33 @@
 /* В этом файле переопределяются базовые стили и поведение страницы и глобальные тэги */
 
 @font-face {
-	/* Texturina varible */
-	font-family: 'TexturinaVariable';
-	src: url('../fonts/Texturina-VariableFont_opsz\,wght.ttf');
+	font-family: 'NotoSans';
+	src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	/* Texturina varible italic */
-	font-family: 'TexturinaItalicVarible';
-	src: url('../fonts/Texturina-Italic-VariableFont_opsz\,wght.ttf');
+	font-family: 'NotoSans';
+	font-style: italic;
+	src: url('/fonts/NotoSans-Italic.ttf');
+}
+
+@font-face {
+	font-family: 'NotoSans';
+	font-weight: 700;
+	src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NotoSans';
+	font-weight: 700;
+	font-style: italic;
+	src: url('/fonts/NotoSans-BoldItalic.ttf');
 }
 
 body {
 	background: #2a2a2a !important;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'NotoSans', sans-serif;
 	color: #ffffff;
-	/*font-family: 'Texturina', serif;*/
 }
 
 html {
