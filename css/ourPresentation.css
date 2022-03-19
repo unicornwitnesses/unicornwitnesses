@@ -3,20 +3,32 @@
   justify-content: flex-end;
 }
 
-.container {
+.change-lang {
+	font-size: 22px;
+	background: #2a2a2a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+
+.presentation-container {
   aspect-ratio: 2 / 1;
   width: 100%;
 	color: #e3e3e3;
 }
 
-.footer {
-  display: grid;
-  grid-template-columns: repeat(3, min-content);
-  column-gap: 110px;
-  row-gap: 50px;
-  margin: 0 auto;
-  width: fit-content;
-  margin-top: 50px;
+.footer-presentaion {
+	display: grid;
+	row-gap: 30px;
+}
+
+.footer a {
+	color: #84bbf5;
+	transform: 0.2s;
+}
+
+.footer a:hover {
+	color: #53a4fa;
 }
 
 @media (max-width: 768px) {
@@ -36,11 +48,10 @@ a {
 }
 
 .subtitle {
-  color: #a3a3a3;
-  font-size: 18px;
-  font-family: sans-serif;
-  font-weight: 400;
-  margin: 0 0 10px 0;
+	color: #4eb803;
+	font-size: 30px;
+	font-weight: 500;
+	margin: 10px 0 60px 0;
 }
 
 .iframe {

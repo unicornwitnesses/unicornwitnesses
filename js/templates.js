@@ -2,8 +2,8 @@ const getTemplate = (data, language) => {
 	const t = (tag) => data?.[tag]?.[language];
 
 	const options = [
-		`<option value="en" ${language === 'en' ? 'selected' : ''}>EN</option>`,
-		`<option value="ru" ${language === 'ru' ? 'selected' : ''}>RU</option>`
+		`<option value="en" ${language === 'en' ? 'selected' : ''}>en</option>`,
+		`<option value="ru" ${language === 'ru' ? 'selected' : ''}>ru</option>`
 	];
 
 	// This implementation from alexdolbun (sorry mates) has taken the mobile version of the browser detector from stackoverflow https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
@@ -25,27 +25,20 @@ const getTemplate = (data, language) => {
 
 	const html = `
 	<div class="container">
-		<header class="header">
+		<header class="header" style="display:grid;row-gap:30px;">
 			<div class="change-land-wrapper" style="text-align:right;float:right;">
-				<select class="change-lang"
-					style="font-size: 24px; color: #fff; background: #000; border: solid #fff 4px ; border-radius: 10px; text-align: right;">
+				<select class="change-lang">
 					${options.join()}
 				</select>
 			</div>
-			<div>
-				<div>
-					<div>
-						<h1 style="margin:-1px;"><a style="color:#fff;">${t('presentation-ecosystem-h1')}</a></h1>
-					</div>
-				</div>
-			</div>
+			<h1 style="margin:-1px;"><a style="color:#fff;">${t('presentation-ecosystem-h1')}</a></h1>
 		</header>
 
 		<main class="main">
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
-				<div class="container" style="height: ${presentationHeight};">
-                    <iframe src="https://docs.google.com/presentation/d/${presentationGoogleID}/embed?rm=minimal"
+				<div class="presentation-container" style="height: ${presentationHeight};">
+                    <iframe style="border-radius:5px;" src="https://docs.google.com/presentation/d/${presentationGoogleID}/embed?rm=minimal"
                             frameborder="0"
                             width="100%"
                             height="100%">
@@ -56,8 +49,8 @@ const getTemplate = (data, language) => {
 		</main>
 
 		<footer class="footer">
-			<div class="footer-presentaion">
-				<h2>With the support of the  <a class="footer-presentaion" href="https://unicornwitnesses.com" target="_blank">unicornwitnesses.com</a> community</h2>
+			<div>
+				<h2>With the support of the  <a href="https://unicornwitnesses.com" target="_blank">unicornwitnesses.com</a> community</h2>
 			</div>
 			<div class="col-sm-3">
 				<div class="footer-presentaion">
