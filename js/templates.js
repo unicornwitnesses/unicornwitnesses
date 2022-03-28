@@ -54,7 +54,7 @@ const getTemplate = (data, language) => {
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
 				<div class="presentation-container" style="height: ${getHeight()};">
-                    <iframe style="border-radius:5px;" src="https://docs.google.com/presentation/d/${getPresentationID()}/embed?rm=minimal"
+                    <iframe style="border-radius:5px;" src="https://docs.google.com/presentation/d/${getPresentationID()}/embed?rm=maximal"
                             frameborder="0"
                             width="100%"
                             height="100%">
