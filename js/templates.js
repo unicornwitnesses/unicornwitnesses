@@ -1,7 +1,7 @@
 const getTemplate = (data, language) => {
-	const path = window.location.pathname.slice(1).split('.');
-	console.log(path);
-	const t = (tag) => data?.[tag]?.[language];
+	const [path] = window.location.pathname.slice(1).split('.');
+
+	const t = (tag) => data?.[path]?.[tag]?.[language];
 
 	const options = [
 		`<option value="en" ${language === 'en' ? 'selected' : ''}>en</option>`,
@@ -14,12 +14,29 @@ const getTemplate = (data, language) => {
 		return check;
 	};
 
-	let presentationGoogleID = language === 'ru' ? '1hYAt7WJp3uKqURfzmZ4Ge6rQVQbtX0IJiEn-mml2oQ8' : '1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM';
-	let presentationHeight = '100%';
+	/**
+	 * @returns ID of our presentation
+	 */
+	function getPresentationID() {
+		if (path === 'OurPresentation') {
+			//return different ID depends on device of incoming user
+			if (checkIfMobileDevice()) {
+				return language === 'ru' ? '1GmAlxxmz4ATW7HLRUrFCXXzQIIhiGy5wqL3APUCWDcA' : '1fxFBcuchbN8JKYm_nYdUt2N5NjdLa8BTdl3DqeUQFVQ';
+			} else {
+				return language === 'ru' ? '1hYAt7WJp3uKqURfzmZ4Ge6rQVQbtX0IJiEn-mml2oQ8' : '1JIx6MYJza63QV-AWdYLx2jYNxphsebE-DFBcoy-QPSM';
+			}
+		}
 
-	if (checkIfMobileDevice()) {
-		presentationGoogleID = language === 'ru' ? '1GmAlxxmz4ATW7HLRUrFCXXzQIIhiGy5wqL3APUCWDcA' : '1fxFBcuchbN8JKYm_nYdUt2N5NjdLa8BTdl3DqeUQFVQ';
-		presentationHeight = 'calc(140vw)';
+		if (path === 'TranslationSystem') {
+			return language === 'ru' ? '1WPz6Cg5IIi1SPI5UXyTs9nx58InfRljx9gs-UGElb5A' : '1E3TLuHTWC6IPtr-RaqXn61n-6Gwuy3bHzvSyRaHthFw'
+		}
+	}
+
+	function getHeight() {
+		if (checkIfMobileDevice()) {
+			return 'calc(140vw)'
+		}
+		return '100%';
 	}
 
 	const html = `
@@ -36,8 +53,8 @@ const getTemplate = (data, language) => {
 		<main class="main">
 			<section>
 				<h2 class="subtitle">${t('h2')}</h2>
-				<div class="presentation-container" style="height: ${presentationHeight};">
-                    <iframe style="border-radius:5px;" src="https://docs.google.com/presentation/d/${presentationGoogleID}/embed?rm=minimal"
+				<div class="presentation-container" style="height: ${getHeight()};">
+                    <iframe style="border-radius:5px;" src="https://docs.google.com/presentation/d/${getPresentationID()}/embed?rm=minimal"
                             frameborder="0"
                             width="100%"
                             height="100%">
