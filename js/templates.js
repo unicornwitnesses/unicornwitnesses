@@ -1,4 +1,6 @@
 const getTemplate = (data, language) => {
+	const path = window.location.pathname.slice(1).split('.');
+	console.log(path);
 	const t = (tag) => data?.[tag]?.[language];
 
 	const options = [
