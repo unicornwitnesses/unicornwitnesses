@@ -21,8 +21,8 @@ const translations = {
 	},
 	"TranslationSystem": { //this key need to add dependency in translation from location of user
 		"presentation-ecosystem-h1": {
-			"ru": "Свидетели Единорога преглашает партнеров для захвата международного рынка, мы привлекаем фондирование с которым перевернем экосистемы ESG индустрии климата и семейного здравоохранения",
-			"en": "Bla-bla-bla",
+			"ru": "Добро пожаловать на страницу с презентацией нашей системы переводов",
+			"en": "Welcome to a page with presentation about our translation system",
 		},
 		"presentation-url-content": {
 			"ru": "./assets/Unicorn-witnesses-pitch_ru.pdf",
