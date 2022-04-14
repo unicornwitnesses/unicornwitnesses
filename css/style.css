@@ -81,10 +81,6 @@
 }
 
 @media (max-width: 768px) {
-	.header {
-		margin-bottom: 20px;
-	}
-
 	#nav {
 		overflow: hidden;
 		padding: 10px;
