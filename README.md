@@ -3,11 +3,11 @@ unicornwitnessesgithubhead&utm_medium=social&utm_source=github.com" target="_bla
 
 
 That creates glocal socially relevance user-friendly and value-generating growth digital products. Unicorn witnesses distributes their products worldwide using global content delivery network, AppStore, PlayMarket and all operating system, platforms and social networks!
-	
+
 Tagline: Innovative. Glocal. Collaborative. Together. Accessibly.
-	
+
 ---
-	
+
 <p align="center">
   <a href="https://unicornwitnesses.com" target="_blank">
     <img alt="Unicorn Witnesses Web Site" src="https://img.shields.io/badge/WWW%20of%20Unicorn%20Witnesses-FF6719?style=for-the-badge&logo=substack&logoColor=white">
@@ -48,8 +48,8 @@ Tagline: Innovative. Glocal. Collaborative. Together. Accessibly.
 </p>
 
 ---
-		
-## Unicorn Witnesses Supporters Websites :		
+
+## Unicorn Witnesses Supporters Websites :
 <table align="center" cellspacing="0" cellpadding="0" border="0">
    <tr>
     <td>
