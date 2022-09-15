@@ -76,8 +76,6 @@ const getTemplate = (data, language) => {
 						target="_blank">nikitakhristenko.com</a></p>
                     <p>CVO Chief visionary officer Aleksei Dolgih Scout VC <a class="bi bi-box-arrow-right text-light p-2" href="http://alexdolbun.com"
 						target="_blank">alexdolbun.com</a></p>
-                    <p>CTO Chief technology/technical officer Evgeny Khristenko <a class="bi bi-box-arrow-right text-light p-2" href="https://evgenykhristenko.com"
-						target="_blank">evgenykhristenko.com</a></p>
 					<p>Digital product developer Ivan Ushmorov Senior <a class="bi bi-box-arrow-right text-light p-2" href="https://usmrv.com"
 						target="_blank">usmrv.com</a></p>
                     <p>Digital product developer Ivan Ushmorov <a class="bi bi-box-arrow-right text-light p-2" href="https://usmrv.com"

@@ -65,12 +65,6 @@ unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">
    </tr>
 	<tr>
     <td>
-		<a href="https://evgenykhristenko.com?utm_content=
-unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Evgeny Khristenko CTO -> evgenykhristenko.com</a>
-			</td>
-   </tr>
-	<tr>
-    <td>
 		<a href="https://usmrv.com?utm_content=
 unicornwitnessesgithub&utm_medium=social&utm_source=github.com" target="_blank">Ivan Ushmorov Senior Digital product developer -> usmrv.com</a>
 			</td>
